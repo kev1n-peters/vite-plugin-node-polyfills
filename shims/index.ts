@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-invalid-this
-const global = window || globalThis || this || self
+const global = globalThis || window || this || self
 
 export { Buffer } from 'buffer-polyfill'
 // We cannot use `process-polyfill` as the package name due to a bug in Yarn v1. The errors results in a dependency
