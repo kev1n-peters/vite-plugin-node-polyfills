@@ -13,6 +13,6 @@
     "ohmyfetch": "^0.4.21",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
-    "@artursapek/vite-plugin-node-polyfills": "workspace:*"
+    "@kev1n-peters/vite-plugin-node-polyfills": "workspace:*"
   }
 }

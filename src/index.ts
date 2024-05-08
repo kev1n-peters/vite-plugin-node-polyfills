@@ -139,8 +139,8 @@ const stripNodePrefix = (name: ModuleName): ModuleNameWithoutNodePrefix => {
  */
 export const nodePolyfills = (options: PolyfillOptions = {}): Plugin => {
   const require = createRequire(import.meta.url)
-  const globalShimsPath = require.resolve('@artursapek/vite-plugin-node-polyfills/shims')
-  const globalShimsBannerPath = require.resolve('@artursapek/vite-plugin-node-polyfills/shims/banner')
+  const globalShimsPath = require.resolve('@kev1n-peters/vite-plugin-node-polyfills/shims')
+  const globalShimsBannerPath = require.resolve('@kev1n-peters/vite-plugin-node-polyfills/shims/banner')
   const globalShimsBanner = readFileSync(globalShimsBannerPath, 'utf-8')
   const optionsResolved: PolyfillOptionsResolved = {
     include: [],
