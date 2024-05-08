@@ -86,17 +86,12 @@
     "vite-node": "^0.34.6",
     "vite-plugin-externalize-deps": "^0.1.5",
     "vite-plugin-inspect": "^0.7.42",
-    "vite-plugin-node-polyfills": "workspace:*"
+    "@artursapek/vite-plugin-node-polyfills": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
   },
   "workspaces": [
     "."
-  ],
-  "pnpm": {
-    "patchedDependencies": {
-      "buffer@6.0.3": "patches/buffer@6.0.3.patch"
-    }
-  }
+  ]
 }
